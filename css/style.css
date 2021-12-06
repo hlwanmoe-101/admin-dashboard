@@ -19,3 +19,15 @@
   top: 0.2rem;
   z-index: 2000;
 }
+.siderbar {
+}
+.sidebar.open {
+  position: fixed;
+  width: 300px;
+  z-index: 2001;
+  display: block !important;
+  background-color: aqua;
+}
+.show-siderbar-btn {
+  cursor: pointer;
+}
