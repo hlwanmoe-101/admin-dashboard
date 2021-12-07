@@ -19,17 +19,18 @@
   top: 0.2rem;
   z-index: 2000;
 }
-.sidebar{
-
-}
-
-.sidebar.open {
-  position: fixed;
-  width: 300px;
-  z-index: 2001;
-  display: block !important;
-  background-color: aqua;
+.sidebar {
 }
 .show-siderbar-btn {
   cursor: pointer;
+}
+@media screen and (max-width: 780px) {
+  .sidebar {
+    position: fixed;
+    width: 300px;
+    z-index: 2001;
+    display: block !important;
+    background-color: aqua;
+    margin-left: -100%;
+  }
 }

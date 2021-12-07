@@ -1,3 +1,4 @@
 $(".show-sidebar-btn").click(function () {
-  $(".sidebar").toggleClass("open");
+  $(".sidebar").animate({ marginleft: 0 });
 });
+$(".")
