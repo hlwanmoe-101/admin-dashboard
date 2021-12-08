@@ -7,12 +7,13 @@
   font-family: "Roboto", sans-serif;
 }
 :root {
-  --primary-soft: #f9f9f9;
+  --primary-soft: #f3f3f3;
 }
 
 .content {
   background-color: var(--primary-soft);
   overflow: scroll;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) inset;
 }
 .header {
   position: sticky;
