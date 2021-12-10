@@ -33,12 +33,21 @@
     background-color: white;
     margin-left: -100%;
   }
+  .item-corsal-card{
+    margin-top: 100px;
+  }
 }
 .user-img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
-.ov-img{
+.ov-img {
   margin-left: -25px;
+}
+.item-carrosal {
+  margin-top: -100px;
+}
+.item-img {
+  height: 200px;
 }
