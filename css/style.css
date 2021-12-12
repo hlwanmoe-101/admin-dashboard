@@ -33,7 +33,7 @@
     background-color: white;
     margin-left: -100%;
   }
-  .item-corsal-card{
+  .item-corsal-card {
     margin-top: 100px;
   }
 }
@@ -50,4 +50,11 @@
 }
 .item-img {
   height: 200px;
+}
+.sub-list tr {
+  transition: (0.1s);
+  cursor: pointer;
+}
+.sub-list tr:hover {
+  transform: scale(1.02);
 }
