@@ -154,10 +154,105 @@
                             class="form-control p-1"
                           />
                         </div>
+                        <div class="form-group">
+                          <label for="name">Item Name </label>
+
+                          <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="form-control"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="type">Item Type </label>
+
+                          <select
+                            name="type"
+                            id="type"
+                            class="form-control custom-select"
+                          >
+                            <option value="0">ကုန်ဆို</option>
+                            <option value="1">ကုန်ခြောက်</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="m-cat">Category </label>
+
+                          <select
+                            name="m-cat"
+                            id="m-cat"
+                            class="form-control custom-select"
+                          >
+                            <option value="0">ကုန်ဆို</option>
+                            <option value="1">ကုန်ခြောက်</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="s-cat">Sub Category</label>
+
+                          <select
+                            name="s-cat"
+                            id="s-cat"
+                            class="form-control custom-select"
+                          >
+                            <option value="0">ကုန်ဆို</option>
+                            <option value="1">ကုန်ခြောက်</option>
+                          </select>
+                        </div>
                       </div>
-                      <div class="col-12 col-md-6"></div>
+                      <div class="col-12 col-md-6">
+                        <div class="row">
+                          <div class="col-6">
+                            <div class="form-group">
+                              <label for="qty">Quantity</label>
+                              <input
+                                type="text"
+                                name="qty"
+                                id="qty"
+                                class="form-control"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="form-group">
+                              <label for="Unit">Unit</label>
+                              <select
+                                name="Unit"
+                                id="Unit"
+                                class="form-control custom-select"
+                              >
+                                <option value="0">ကုန်ဆို</option>
+                                <option value="1">ကုန်ခြောက်</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="price">Price </label>
+
+                          <input
+                            type="text"
+                            name="price"
+                            id="price"
+                            class="form-control"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="des">Descriotion</label>
+                          <textarea
+                            type="text"
+                            name="des"
+                            id="des"
+                            rows="8"
+                            class="form-control"
+                          >
+                          </textarea>
+                        </div>
+                      </div>
                     </div>
                     <hr />
+                    <button class="btn btn-primary">Add Item</button>
                   </form>
                 </div>
               </div>
