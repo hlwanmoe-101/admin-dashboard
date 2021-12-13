@@ -18,3 +18,8 @@ $(".full-screen-btn").click(function () {
     >`);
   }
 });
+function go(url) {
+  setTimeout(function () {
+    location.href = `${url}`;
+  }, 500);
+}
