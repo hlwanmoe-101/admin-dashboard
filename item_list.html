@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="main container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-3 col-xl-2 vh-100 sidebar">
+          <!-- sidebar start -->
+          <div class="d-flex justify-content-between align-items-center py-3">
+            <div class="h4">
+              <span
+                class="
+                  feather-heart
+                  text-danger
+                  rounded-circle
+                  border border-danger
+                  bg-white
+                  h3
+                  p-1
+                "
+              ></span>
+              <span class="text-primary">HOPE</span>
+            </div>
+            <button class="hide-sidebar-btn btn btn-link d-lg-none">
+              <i
+                class="feather-x-circle text-primary"
+                style="font-size: 3em"
+              ></i>
+            </button>
+          </div>
+          <!-- sidebar end  -->
+        </div>
+        <div class="col-12 col-lg-9 col-xl-10 vh-100 py-3 content">
+          <div class="row header mb-3">
+            <div class="col-12">
+              <div
+                class="
+                  p-4
+                  bg-primary
+                  rounded
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <button class="show-sidebar-btn btn btn-link d-lg-none">
+                  <i class="feather-menu text-light" style="font-size: 3em"></i>
+                </button>
+
+                <form action="" method="post" class="d-none d-md-block">
+                  <div class="form-inline">
+                    <input
+                      type="text"
+                      class="form-control mr-2 search-bar"
+                      placeholder="Search"
+                    />
+                    <button class="btn btn-light">
+                      <i class="feather-search text-primary p-0"></i>
+                    </button>
+                  </div>
+                </form>
+
+                <div class="dropdown">
+                  <button
+                    class="btn btn-primary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="img/user/avatar1.jpg"
+                      alt=""
+                      class="user-img shadow-sm"
+                    />
+                    Hlwan
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content start -->
+          <div class="row">
+            <div class="col-12">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white">
+                  <li class="breadcrumb-item">
+                    <a href="#"><i class="feather-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item"><a href="#">Item</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Item List
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h4 class="mb-0">
+                      <i class="feather-list mr-2 text-primary"></i>
+                      Item List
+                    </h4>
+                    <div>
+                      <a
+                        href="#"
+                        class="btn btn-sm btn-outline-secondary full-screen-btn"
+                      >
+                        <i class="feather-maximize-2"></i
+                      ></a>
+                      <a
+                        href="add_item.html"
+                        class="feather-plus-circle btn btn-outline-primary"
+                      ></a>
+                    </div>
+                  </div>
+                  <hr />
+                  <h1 class="text-center">Full Screen Card</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content end -->
+        </div>
+      </div>
+    </section>
+    <script src="vendor/jquery-3.6.0.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
