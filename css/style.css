@@ -27,6 +27,11 @@
 .show-siderbar-btn {
   cursor: pointer;
 }
+.brand {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
 .item-nav {
   list-style: none;
   margin: 0;
