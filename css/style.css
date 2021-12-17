@@ -64,6 +64,7 @@
 .item-list-menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .spacer {
   padding: 5px;
